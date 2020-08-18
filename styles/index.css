@@ -1,14 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #edeef2;
+}
+
+/* Global styles*/
+
+:root {
+  --title: "Baloo Tamma 2", cursive;
+  --content: "Yanone Kaffeesatz", sans-serif;
+}
+
+/*Navbar*/
+
+.navbar {
+  display: grid;
+  grid-template-columns: 94% 6%;
+  height: 6vh;
+  margin-right: 5%;
+  margin-top: 1%;
+  font-family: var(--content);
+}
+
+.sign-in_text {
+  justify-self: end;
+  padding-right: 2%;
+  font-size: 1em;
+}
+
+.sign-in_button {
+  background-color: #0077c5;
+  color: #fff;
+  border: 1px solid #000;
+  border-radius: 10%;
+  width: 100px;
+  margin-right: 2%;
+}
+
+#sign-in_image {
+  width: 12%;
+}
 
 form {
-   margin: 20px auto;
-   width: 240px;
-   height: 300px;
-   display: block;
-
+  margin: 20px auto;
+  width: 240px;
+  height: 300px;
+  display: block;
 }
 
 input {
-	width: 100px;
+  width: 100px;
 }
-
-
