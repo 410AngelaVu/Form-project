@@ -9,6 +9,7 @@
 :root {
   --title: "Baloo Tamma 2", cursive;
   --content: "Yanone Kaffeesatz", sans-serif;
+  --form-background: #fff;
 }
 
 /*Navbar*/
@@ -41,13 +42,78 @@
   width: 12%;
 }
 
+/* Main content*/
+main {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+
+/* Header of logos*/
+.intuit-logo {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+.app-logos {
+  font-family: var(--title);
+  display: flex;
+}
+
+.logo-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
+}
+
+#logo {
+  width: 60%;
+}
+
+.sign-up {
+  background-color: #fff;
+  width: 70%;
+  display: block;
+  margin: 5% auto;
+}
+
+.sign-up_header {
+  background-color: var(--form-background);
+  text-align: center;
+}
+
+.sign-up_text {
+  background-color: #fff;
+  font-family: var(--content);
+}
+
+.sign-up_header h1 {
+  font-size: 1.7em;
+  color: #5b534c;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.sign-up_header p {
+  font-size: 1.1em;
+}
+
 form {
   margin: 20px auto;
-  width: 240px;
+  width: 100%;
   height: 300px;
   display: block;
 }
 
-input {
+input,
+label,
+form,
+.account-info {
   width: 100px;
+  background-color: var(--form-background);
+}
+
+.account-info {
+  width: 100%;
 }

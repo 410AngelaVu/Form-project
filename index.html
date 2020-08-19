@@ -25,26 +25,68 @@
       </nav>
     </header>
 
-    <form>
-      <fieldset class="account-info">
-        <label>
-          Email adress
-          <input type="email" name="email-adress" />
-        </label>
-        <label>
-          Phone (recommended)
-          <input type="tel" name="phone-number" />
-          Standard call, messaging or data rates may apply.
-        </label>
-        <label>
-          Password
-          <input type="text" name="password" />
-        </label>
-        <button name="submit">
-          Create Account
-        </button>
-      </fieldset>
-    </form>
+    <main>
+      <!--Header of logos-->
+
+      <section class="logos">
+        <div class="main-logo">
+          <img class="intuit-logo" src="images/intui.png" />
+        </div>
+        <div class="app-logos">
+          <div class="logo-container">
+            <img id="logo" src="images/mint-logo.png" />
+            <p>mint</p>
+          </div>
+
+          <div class="logo-container">
+            <img id="logo" src="images/qb-logo.png" />
+            <p>quickbooks</p>
+          </div>
+
+          <div class="logo-container">
+            <img id="logo" src="images/turbotext-logo.png" />
+            <p>turbotax</p>
+          </div>
+        </div>
+      </section>
+
+      <!--Create account form-->
+      <section class="sign-up">
+        <div class="sign-up_header">
+          <h1 class="sign-up_text">Create an Intuit account</h1>
+          <p class="sign-up_text">
+            One account for everything Intuit, including Mint.
+          </p>
+          <a
+            class="sign-up_text"
+            href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+            >Learn more</a
+          >
+        </div>
+        <form>
+          <fieldset class="account-info">
+            <label>
+              Email adress
+              <input type="email" name="email-adress" />
+            </label>
+            <label>
+              Phone (recommended)
+              <input type="tel" name="phone-number" />
+              Standard call, messaging or data rates may apply.
+            </label>
+            <label>
+              Password
+              <input type="text" name="password" />
+            </label>
+            <button name="submit">
+              Create Account
+            </button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <!--Footer-->
     <footer>
       <div class="part">
         <a href="#">Legal</a>
