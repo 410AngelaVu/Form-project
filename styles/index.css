@@ -2,11 +2,16 @@
   margin: 0;
   padding: 0;
   background-color: #edeef2;
-  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+  font-family:
+    "AvenirNext",
+    Avenir,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
     sans-serif;
 }
 
-/* Global styles*/
+/* Global styles */
 
 :root {
   --title: "AvenirNext";
@@ -14,7 +19,7 @@
   --form-background: #fff;
 }
 
-/*Navbar*/
+/* Navbar */
 
 .navbar {
   display: grid;
@@ -47,7 +52,7 @@
   background-color: #0077c5;
 }
 
-/* Main content*/
+/* Main content */
 .inuit-container {
   width: 100%;
   text-align: center;
