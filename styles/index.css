@@ -84,6 +84,10 @@
   width: 100%;
 }
 
+.color-w {
+  background-color: var(--form-background);
+}
+
 .sign-up_header {
   display: block;
   text-align: center;
@@ -91,20 +95,17 @@
   padding-top: 2%;
   width: 35%;
   overflow: auto;
-  background-color: var(--form-background);
 }
 
 .sign-up_title {
   font-weight: 400;
   font-size: 1.5em;
   color: #4c4c4c;
-  background-color: var(--form-background);
   padding-bottom: 5%;
 }
 
 .sign-up_text {
   font-family: Arial, sans-serif;
-  background-color: var(--form-background);
   text-decoration: none;
   font-weight: normal;
 }
@@ -113,27 +114,23 @@
   font-size: 0.8em;
   color: #0077c5;
   text-decoration: none;
-  background-color: var(--form-background);
 }
 
 form {
   display: block;
   margin: 0 auto;
   width: 35%;
-  background-color: var(--form-background);
   padding: 3% 0 0 0;
 }
 
 label {
   font-size: 1em;
-  background-color: var(--form-background);
   color: #474747;
   padding-left: 10%;
 }
 
 .form-info {
   padding-bottom: 10%;
-  background-color: var(--form-background);
 }
 
 input {
@@ -142,12 +139,10 @@ input {
   display: block;
   margin: 0 auto;
   border: 1px solid #c7c7c7;
-  background-color: var(--form-background);
   border-radius: 5%;
 }
 
 #phone-txt {
-  background-color: var(--form-background);
   color: #474747;
   padding-left: 10%;
   font-size: 0.7em;
@@ -177,7 +172,6 @@ button {
   margin: 0 auto;
   padding-top: 2%;
   width: 35%;
-  background-color: var(--form-background);
   color: #2e2e2e;
 }
 
@@ -187,14 +181,12 @@ button {
   margin: 0 auto;
   padding-bottom: 5%;
   font-style: italic;
-  background-color: var(--form-background);
   margin-top: 5%;
   font-size: 0.9em;
 }
 
 .terms a {
   text-decoration: none;
-  background-color: var(--form-background);
   color: #0077c5;
 }
 
