@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   background-color: #edeef2;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 /* Global styles*/
 
 :root {
-  --title: "Baloo Tamma 2", cursive;
-  --content: "Yanone Kaffeesatz", sans-serif;
+  --title: "AvenirNext";
+  --content: "Helvetica";
   --form-background: #fff;
 }
 
@@ -17,113 +19,190 @@
 .navbar {
   display: grid;
   grid-template-columns: 94% 6%;
-  height: 6vh;
+  height: 4vh;
   margin-right: 5%;
   margin-top: 1%;
-  font-family: var(--content);
+  font-family: Arial, sans-serif;
+  font-weight: thin;
 }
 
 .sign-in_text {
   justify-self: end;
   padding-right: 2%;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 .sign-in_button {
   background-color: #0077c5;
   color: #fff;
-  border: 1px solid #000;
-  border-radius: 10%;
+  border: 0.5px solid #000;
+  border-radius: 9%;
+  height: 30px;
   width: 100px;
   margin-right: 2%;
 }
 
 #sign-in_image {
   width: 12%;
+  background-color: #0077c5;
 }
 
 /* Main content*/
-main {
-  display: block;
-  margin: 0 auto;
-  width: 40%;
+.inuit-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
 }
 
-/* Header of logos*/
-.intuit-logo {
-  width: 30%;
-  display: block;
-  margin: 0 auto;
+.inuit-logo img {
+  width: 15%;
+  margin-bottom: 1%;
 }
 
-.app-logos {
-  font-family: var(--title);
-  display: flex;
+.app-logos ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 4px;
+  font-size: 1em;
+  font-family: "AvenirNext";
 }
 
-.logo-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding: 0;
+.app-img {
+  width: 25px;
 }
 
-#logo {
-  width: 60%;
+.app-text {
+  height: 20px;
 }
 
 .sign-up {
-  background-color: #fff;
-  width: 70%;
-  display: block;
-  margin: 5% auto;
+  width: 100%;
 }
 
 .sign-up_header {
-  background-color: var(--form-background);
+  display: block;
   text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  width: 35%;
+  overflow: auto;
+  background-color: var(--form-background);
+}
+
+.sign-up_title {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #4c4c4c;
+  background-color: var(--form-background);
+  padding-bottom: 5%;
 }
 
 .sign-up_text {
-  background-color: #fff;
-  font-family: var(--content);
+  font-family: Helvetica;
+  background-color: var(--form-background);
+  text-decoration: none;
+  font-weight: normal;
 }
 
-.sign-up_header h1 {
-  font-size: 1.7em;
-  color: #5b534c;
-  padding-bottom: 5%;
-  padding-top: 3%;
-}
-
-.sign-up_header p {
-  font-size: 1.1em;
+.sign-up_link {
+  font-size: 0.8em;
+  color: #0077c5;
+  text-decoration: none;
+  background-color: var(--form-background);
 }
 
 form {
-  margin: 0 auto;
-  width: 100%;
   display: block;
-}
-
-.account-info {
-  width: 80%;
-  margin: 10%;
+  text-align: center;
+  margin: 0 auto;
+  width: 35%;
   background-color: var(--form-background);
+  padding: 3% 0 0 0;
 }
 
 label {
   font-size: 1em;
   background-color: var(--form-background);
+  justify-content: left;
+  padding-bottom: 5%;
 }
 
-.submit-btn {
-  display: inherit;
+input {
   width: 80%;
-  height: 2.5rem;
+  height: 6vh;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10%;
+  border: 1px solid #c7c7c7;
+  background-color: var(--form-background);
+  border-radius: 5%;
+}
+
+#phone-txt {
+  background-color: var(--form-background);
+}
+
+button {
+  width: 80%;
   background-color: #0077c5;
   color: #fff;
-  font-family: var(--content);
-  font-size: 1.5em;
+  height: 6vh;
   box-shadow: none;
   border: none;
+  border-radius: 5%;
+}
+
+.form-btn_image {
+  width: 15px;
+  background-color: #0077c5;
+}
+
+.terms {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2%;
+  width: 35%;
+  background-color: var(--form-background);
+  color: #2e2e2e;
+}
+
+.terms-txt {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-style: italic;
+}
+
+.terms a {
+  text-decoration: none;
+  background-color: var(--form-background);
+  color: #0077c5;
+}
+
+.terms-txt {
+  font-style: italic;
+  background-color: var(--form-background);
+  margin-top: 5%;
+  font-size: 0.9em;
+}
+
+.capcha {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2% 0 2% 0;
+}
+
+.capcha p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.7em;
+}
+
+.capcha a {
+  text-decoration: none;
+  color: #0077c5;
 }
