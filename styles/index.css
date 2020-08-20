@@ -206,3 +206,29 @@ button {
   text-decoration: none;
   color: #0077c5;
 }
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #4c4c4c;
+  font-family: Arial, sans-serif;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 3% 2% 0 2%;
+  font-size: 0.8em;
+}
+
+.footer li:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 0.8em;
+}
