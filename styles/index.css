@@ -2,13 +2,7 @@
   margin: 0;
   padding: 0;
   background-color: #edeef2;
-  font-family:
-    "AvenirNext",
-    Avenir,
-    "Helvetica Neue",
-    Helvetica,
-    Arial,
-    sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Global styles */
@@ -28,7 +22,7 @@
   margin-right: 5%;
   margin-top: 1%;
   font-family: Arial, sans-serif;
-  font-weight: thin;
+  font-weight: 100;
 }
 
 .sign-in_text {
@@ -64,12 +58,18 @@
   margin-bottom: 1%;
 }
 
+.footer li {
+  display: inline-block;
+  padding: 3% 2% 1% 2%;
+  font-size: 0.8em;
+}
+
 .app-logos ul li {
   display: inline-block;
   list-style: none;
   padding: 4px;
   font-size: 1em;
-  font-family: "AvenirNext";
+  font-family: Arial, sans-serif;
 }
 
 .app-img {
@@ -103,7 +103,7 @@
 }
 
 .sign-up_text {
-  font-family: Helvetica;
+  font-family: Arial, sans-serif;
   background-color: var(--form-background);
   text-decoration: none;
   font-weight: normal;
@@ -163,10 +163,11 @@ button {
   box-shadow: none;
   border: none;
   border-radius: 5%;
+  font-size: 1em;
 }
 
 .form-btn_image {
-  width: 15px;
+  width: 12px;
   background-color: #0077c5;
 }
 
@@ -186,19 +187,15 @@ button {
   margin: 0 auto;
   padding-bottom: 5%;
   font-style: italic;
+  background-color: var(--form-background);
+  margin-top: 5%;
+  font-size: 0.9em;
 }
 
 .terms a {
   text-decoration: none;
   background-color: var(--form-background);
   color: #0077c5;
-}
-
-.terms-txt {
-  font-style: italic;
-  background-color: var(--form-background);
-  margin-top: 5%;
-  font-size: 0.9em;
 }
 
 .capcha {
@@ -226,12 +223,6 @@ button {
   margin: 0 auto;
   color: #4c4c4c;
   font-family: Arial, sans-serif;
-}
-
-.footer li {
-  display: inline-block;
-  padding: 3% 2% 1% 2%;
-  font-size: 0.8em;
 }
 
 .footer li:hover {
