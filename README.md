@@ -8,7 +8,7 @@ Additional description about the project and its features.
 
 ## Live demo
 
-![live demo](https://rawcdn.githack.com/410AngelaVu/Form-project/1c40c2023286fc8795fe8c9ca3b9d6e9ba3bbe9b/index.html)
+[live demo](https://rawcdn.githack.com/410AngelaVu/Form-project/1c40c2023286fc8795fe8c9ca3b9d6e9ba3bbe9b/index.html)
 
 ## Built With
 
