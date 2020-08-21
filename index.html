@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form Example</title>
+    <link href="styles/index.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Yanone+Kaffeesatz:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="sign-in_text">
+          <p>
+            Already have an Intuit account?
+          </p>
+          <a href="#">I forgot my User ID or Password</a>
+        </div>
+
+        <button class="sign-in_button" name="submit" type="submit">
+          <img id="sign-in_image" src="./Images/padlock.png" alt="lock" /> Sign
+          in
+        </button>
+      </nav>
+    </header>
+
+    <!--Form-->
+    <header class="inuit-container">
+      <div class="inuit-logo">
+        <img src="./Images/intui.png" alt="intuit logo" />
+      </div>
+
+      <div class="app-logos">
+        <ul>
+          <li>
+            <img class="app-img" src="./Images/mint-logo.png" alt="mint logo" />
+          </li>
+          <li>
+            <img
+              class="app-text"
+              src="./Images/mint.PNG"
+              alt="mint logo text"
+            />
+          </li>
+          <li>
+            <img
+              class="app-img"
+              src="./Images/qb-logo.png"
+              alt="quickbooks logo"
+            />
+          </li>
+          <li>
+            <img
+              class="app-text"
+              src="./Images/quickbooks.PNG"
+              alt="quici
+			 logo text"
+            />
+          </li>
+          <li>
+            <img
+              class="app-img"
+              src="./Images/turbotext-logo.png"
+              alt="turbotax logo"
+            />
+          </li>
+          <li>
+            <img
+              class="app-text"
+              src="./Images/turbotax.PNG"
+              alt="turbotax logo text"
+            />
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="sign-up">
+      <div class="sign-up_header color-w">
+        <h1 class="sign-up_title color-w">Create an Intuit account</h1>
+        <p class="sign-up_text color-w">
+          One account for everything Intuit, including Mint.
+        </p>
+        <a
+          class="sign-up_link color-w"
+          href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account	"
+          >Learn More</a
+        >
+      </div>
+      <form class="color-w">
+        <div class="form-info color-w">
+          <label for="email" class="color-w">Email address </label>
+          <input type="email" id="email" class="color-w" />
+        </div>
+
+        <div class="form-info color-w">
+          <label for="phone" class="color-w">Phone (recommended)</label>
+          <input type="tel" class="color-w" id="phone" />
+          <p id="phone-txt" class="color-w">
+            Standard call, messaging or data rates may apply.
+          </p>
+        </div>
+
+        <div class="form-info color-w">
+          <label for="password" class="color-w">Password</label>
+          <input type="password" id="password" class="color-w" />
+        </div>
+
+        <button class="form-btn" type="submit">
+          <img class="form-btn_image" src="./Images/padlock.png" alt="lock" />
+          Create account
+        </button>
+      </form>
+
+      <div class="terms color-w">
+        <p class="terms-txt color-w">
+          By Clicking Create account, you agree to our
+          <a class="color-w" href="https://www.mint.com/terms">Terms</a> and
+          have read and acknowledge our
+          <a href="https://www.intuit.com/privacy/">Privacy Statement </a>.
+        </p>
+      </div>
+
+      <div class="capcha">
+        <p>
+          Invisible reCAPTCHA by Google
+          <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a>
+          and
+          <a href="https://policies.google.com/terms?hl=en">Terms of Use</a>.
+        </p>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <ul>
+        <li>Legal</li>
+        <li>Privact</li>
+        <li>Security</li>
+      </ul>
+
+      <p>
+        © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB,
+        TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+        Terms and conditions, features, support, pricing, and service options
+        subject to change without notice.
+      </p>
+    </footer>
+  </body>
+</html>

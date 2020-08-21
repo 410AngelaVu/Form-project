@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #edeef2;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles */
+
+:root {
+  --title: "AvenirNext";
+  --content: "Helvetica";
+  --form-background: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  display: grid;
+  grid-template-columns: 94% 6%;
+  height: 4vh;
+  margin-right: 5%;
+  margin-top: 1%;
+  font-family: Arial, sans-serif;
+  font-weight: 100;
+}
+
+.sign-in_text {
+  justify-self: end;
+  padding-right: 2%;
+  font-size: 0.8em;
+}
+
+.sign-in_button {
+  background-color: #0077c5;
+  color: #fff;
+  border: 0.5px solid #000;
+  border-radius: 9%;
+  height: 30px;
+  width: 100px;
+  margin-right: 2%;
+}
+
+#sign-in_image {
+  width: 12%;
+  background-color: #0077c5;
+}
+
+/* Main content */
+.inuit-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+
+.inuit-logo img {
+  width: 15%;
+  margin-bottom: 1%;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 3% 2% 1% 2%;
+  font-size: 0.8em;
+}
+
+.app-logos ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 4px;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+}
+
+.app-img {
+  width: 25px;
+}
+
+.app-text {
+  height: 20px;
+}
+
+.sign-up {
+  width: 100%;
+}
+
+.color-w {
+  background-color: var(--form-background);
+}
+
+.sign-up_header {
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding-top: 2%;
+  width: 35%;
+  overflow: auto;
+}
+
+.sign-up_title {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #4c4c4c;
+  padding-bottom: 5%;
+}
+
+.sign-up_text {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.sign-up_link {
+  font-size: 0.8em;
+  color: #0077c5;
+  text-decoration: none;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  width: 35%;
+  padding: 3% 0 0 0;
+}
+
+label {
+  font-size: 1em;
+  color: #474747;
+  padding-left: 10%;
+}
+
+.form-info {
+  padding-bottom: 10%;
+}
+
+input {
+  width: 80%;
+  height: 6vh;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #c7c7c7;
+  border-radius: 5%;
+}
+
+#phone-txt {
+  color: #474747;
+  padding-left: 10%;
+  font-size: 0.7em;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #0077c5;
+  color: #fff;
+  height: 6vh;
+  box-shadow: none;
+  border: none;
+  border-radius: 5%;
+  font-size: 1em;
+}
+
+.form-btn_image {
+  width: 12px;
+  background-color: #0077c5;
+}
+
+.terms {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2%;
+  width: 35%;
+  color: #2e2e2e;
+}
+
+.terms-txt {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 5%;
+  font-style: italic;
+  margin-top: 5%;
+  font-size: 0.9em;
+}
+
+.terms a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.capcha {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2% 0 2% 0;
+}
+
+.capcha p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.7em;
+}
+
+.capcha a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  color: #4c4c4c;
+  font-family: Arial, sans-serif;
+}
+
+.footer li:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  font-size: 0.8em;
+  margin-bottom: 3%;
+}
